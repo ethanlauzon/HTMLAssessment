@@ -16,20 +16,66 @@
         Maecenas et massa ut libero aliquet tristique.
         Donec ac ligula elementum, fermentum lorem at, tempus metus.</em></blockquote>
 
-        <p><strong>ullam</strong> nulla ante, pulvinar non quam ut, facilisis dignissim mi. Morbi leo augue, pellentesque
-          imperdiet malesuada ultricies,
-          sollicitudin sed lorem.
-           Duis nec purus faucibus, lacinia metus pellentesque, faucibus sem</p>
+    <p><strong>ullam</strong> nulla ante, pulvinar non quam ut, facilisis dignissim mi. Morbi leo augue, pellentesque
+      imperdiet malesuada ultricies,
+      sollicitudin sed lorem.
+      Duis nec purus faucibus, lacinia metus pellentesque, faucibus sem</p>
 
     <h1>TABLE</h1>
+
+    <table style ="width:100%">
+      <tr>
+        <th></th>
+        <th></th>
+        <th>Scores by Quarter</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>First Half</th>
+        <th></th>
+        <th>Second Half</th>
+      </tr>
+      <tr>
+        <th>Team Name</th>
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+        <th>Q4</th>
+        <th>Final</th>
+      </tr
+      <tr>
+        <th>Dallas</th>
+        <th>7</th>
+        <th>3</th>
+        <th>0</th>
+        <th>7</th>
+        <th>17</th>
+      </tr>
+      <tr>
+        <th>Detriot</th>
+        <th>0</th>
+        <th>6</th>
+        <th>3</th>
+        <th>6</th>
+        <th>15</th>
+      </tr>
+      <tr>
+        <th>Total</th>
+        <th>7</th>
+        <th>9</th>
+        <th>3</th>
+        <th>13</th>
+        <th>32</th>
+      </tr>
+    </table>
+
     <h1>LIST</h1>
     <ul>
-      <li><img src="https://assets-sports.thescore.com/hockey/team/22/logo.png" alt="dallas stars logo"> </li>
-      <a href = "https://www.nhl.com/stars">Dallas Stars</a>
-      <ul style = "list-style-type:circle">
+        <li><img src="https://assets-sports.thescore.com/hockey/team/22/logo.png" alt="dallas stars logo"> </li>
+        <a href = "https://www.nhl.com/stars">Dallas Stars</a>
+        <ul style = "list-style-type:circle">
         <li>Coach: Chris Reifert </li>
         <li>QB</li>
-
       <ol>
         <li>Danny Spira</li>
         <li>Ian MacKaye</li>
@@ -39,21 +85,52 @@
     </ul>
 
     <ul>
-      <li><img src="https://assets-sports.thescore.com/hockey/team/18/logo.png" alt="detriot red wings logo"></li>
-      <a href = "https://www.nhl.com/redwings">Detriot Red Wings</a>
-      <ul>
+        <li><img src="https://assets-sports.thescore.com/hockey/team/18/logo.png" alt="detriot red wings logo"></li>
+        <a href = "https://www.nhl.com/redwings">Detriot Red Wings</a>
+        <ul>
         <li>Coach: Fenriz</li>
         <li>QB</li>
-
       <ol>
-      <li>Rozz Williams</li>
-      <li>Steve Ignorant</li>
-      <li>Tom Warrior</li>
+        <li>Rozz Williams</li>
+        <li>Steve Ignorant</li>
+        <li>Tom Warrior</li>
       </ol>
     </ul>
     </ul>
-    <h1>FORM</h1>
 
+    <h1>FORM</h1>
+    <label for="fname">First Name: </label><input type="text" id="fname" name="fname">
+    <label for="lname">Last Name: </label><input type="text" id="lname" name="lname"><br><br>
+
+    <label for="sports">Choose your favorite sport</label><br>
+    <select class="sports" name="sports">
+      <option value="Soccer">Soccer</option>
+      <option value="Hockey">Hockey</option>
+      <option value="Football">Football</option>
+      <option value="Wrestling">Wrestling</option>
+      <option value="Boxing">Boxing</option>
+      <option value="Baseball">Baseball</option>
+
+    </select>
+
+    <p>I have _______ this sport.</p>
+    <input type="checkbox" name="Attended" value="Attended">
+    <label for="Attended">Attended</label>
+    <input type="checkbox" name="Played" value="Played">
+    <label for="Played">Played</label>
+    <input type="checkbox" name="Coached" value="Coached">
+    <label for="Coached">Coached</label>
+    <input type="checkbox" name="BetOn" value="BetOn">
+    <label for="BetOn">Bet On</label>
+
+    <p>For this Sport I prefer the: </p>
+    <input type="radio" name="prefer" value="Amateur">
+    <label for="Amateur">Amateur</label>
+    <input type="radio" name="prefer" value="College">
+    <label for="College">College</label>
+    <input type="radio" name="prefer" value="Professional">
+    <label for="Professional">Professional</label><br><br>
+    <input type="submit" name="submit" value="Submit Query">
 
   </body>
 </html>
